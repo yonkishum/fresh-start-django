@@ -11,3 +11,12 @@ After installs the dependencies through **"pip install"**
 * djangorestframework (REST framework)
 * django-cors-headers (Cors Headers)
 * coreapi (documentation)
+
+# node integration
+
+minimum required version 16.0+
+
+make a vite project, example: npm create vite, after that select react and javascript, to install the dependencies you need to move through the terminal in the project vite folder
+
+type "npm install" and let the npm handle all the instalation.
+
