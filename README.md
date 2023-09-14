@@ -20,3 +20,11 @@ make a vite project, example: npm create vite, after that select react and javas
 
 type "npm install" and let the npm handle all the instalation.
 
+# node dependencies list:
+
+to install the dependencies type, **npm i ...**
+
+* react-router-dom
+* react-hot-toast
+* axios
+* react-hook-form
