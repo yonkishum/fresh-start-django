@@ -133,7 +133,7 @@ CORS_ALLOWED_ORIGINS = [
 
 ]
 
-# AutoScheme 
+# AutoScheme, you need make this configuration to make works coreapi
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
