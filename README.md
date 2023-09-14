@@ -7,6 +7,7 @@ After installs the dependencies through **"pip install"**
 
 # dependencies lists:
 
-* django
-* djangorestframework
-* django-cors-headers
+* django (main framework)
+* djangorestframework (REST framework)
+* django-cors-headers (Cors Headers)
+* coreapi (documentation)
