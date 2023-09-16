@@ -22,9 +22,12 @@ type **"npm install"** and let the npm handle all the instalation.
 
 # node dependencies list:
 
-to install the dependencies type, **npm i ...**
+to install the dependencies type, **"npm i ..."**
 
 * react-router-dom
 * react-hot-toast
 * axios
 * react-hook-form
+* tailwindcss
+* postcss
+* autoprefixer
