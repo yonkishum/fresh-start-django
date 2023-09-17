@@ -41,9 +41,10 @@ export function TasksFormPage() {
     useEffect(() => {
         async function loadTask() {
             if (params.id) {
-                const { data: { title, description }, } = await getTask(params.id);
+                const { data: { title, description, done }, } = await getTask(params.id);
                 setValue('title', title)
                 setValue('description', description)
+                setValue('done', done)
             }
         }
         loadTask();
@@ -64,6 +65,10 @@ export function TasksFormPage() {
                     className='bg-zinc-700 p-3 rounded-lg block w-full mb-3'
                 ></textarea>
                 { errors.description && <span>Description is required</span> }
+
+                <input type='checkbox' className='rounded'
+                    { ...register("done")}
+                ></input><label className='px-3'>is done?</label>
 
                 <button 
                     className='bg-indigo-500 p-3 rounded-lg block w-full mt-3'
